@@ -11,8 +11,19 @@ public class Main {
         for (int i = 0; i < persons.length; i++) {
             String age = persons[i].getAge();
             if (age.equals("33")) {
-                System.out.println(persons[i].toString());
+                System.out.println(persons[i]);
             }
         }
+
+        Auto[] cars = {
+                new Auto("Ford", "hatch", "757575"),
+                new Auto("Reno", "sedan", "535353"),
+                new Auto("Toyota", "sedan", "090909"),
+        };
+
+        System.out.println(cars[1]);
+        cars[1] = cars[1].withBodyNumber("404040");
+        System.out.println(cars[1]);
+
     }
 }
