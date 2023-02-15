@@ -22,19 +22,15 @@ public class Person {
     public String getFirstName () {
         return firstName;
     }
-
     public String getLastName() {
         return lastName;
     }
-
     public String getAge() {
         return age;
     }
-
     public String getJob() {
         return job;
     }
-
     public String getPassportNumber() {
         return passportNumber;
     }
